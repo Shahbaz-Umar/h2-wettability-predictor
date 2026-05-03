@@ -23,4 +23,4 @@ if st.button("Predict Contact Angle"):
     st.caption("Model MAE = 3.2° · Trained on 78 literature points")
 
 st.markdown("---")
-st.markdown("👉 [Get API access or consultation](https://your-gumroad-link)")
+st.markdown("👉 [Get API access or consultation](https://shahbazumarsky1.gumroad.com/l/bobhmpp)")
