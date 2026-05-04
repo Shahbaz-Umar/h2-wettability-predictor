@@ -24,3 +24,12 @@ if st.button("Predict Contact Angle"):
 
 st.markdown("---")
 st.markdown("👉 [Get API access or consultation](https://shahbazumarsky1.gumroad.com/l/bobhmpp)")
+# Add a disclaimer
+st.caption("⚠️ Model trained on literature data only. Not a substitute for lab measurements.")
+
+# Add a simple error message if prediction fails
+try:
+    angle = model.predict(X_scaled)[0]
+    st.success(...)
+except Exception as e:
+    st.error(f"Prediction failed: {e}")
